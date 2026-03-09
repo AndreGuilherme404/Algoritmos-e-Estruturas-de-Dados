@@ -22,3 +22,10 @@ A lógica foi construída inteiramente do zero, sem o uso de coleções prontas 
 1. Clone o repositório para o seu ambiente local.
 2. Navegue até a pasta correspondente aos arquivos fonte deste projeto.
 3. Altere no Main.java o path para apontar para a localização do arquivo .pgm em sua máquina local.
+4. Compile os arquivos:
+   ```bash
+   javac Main/*.java
+5. Execute o arquivo compilado:
+   ```bash
+   java Main.Main
+O resultado final será salvo automaticamente em um arquivo saida.pgm no diretório raiz da execução.
