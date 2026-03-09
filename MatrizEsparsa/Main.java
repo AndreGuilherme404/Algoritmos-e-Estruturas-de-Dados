@@ -1,16 +1,15 @@
 package Main;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-	// Coloque o path do arquivo bgm aqui
-	static File arquivoBGM = new File("C:\\Users\\André Guilherme\\Desktop\\javaArquivo\\Trabalho1.pgm");
+	// Coloque o path do arquivo pgm aqui
+	static File arquivoBGM = new File("pgm/Trabalho1.pgm");
+	//static File arquivoBGM = new File("pgm/Trabalho1_bandeira.pgm");
+	//static File arquivoBGM = new File("pgm/Trabalho1_HomerSimpson.pgm");
 	static int valorMax = 0;
 	static int linhas = 0;
 	static int colunas = 0;
